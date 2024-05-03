@@ -209,7 +209,7 @@ class BSVCalculation:
             return file
         except ValueError:
             return None
-
+        
     def getMosaicImage(self, panoid, output512, output256):
         """
         panoid: id of the street view image
